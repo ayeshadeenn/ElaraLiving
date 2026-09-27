@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+    --color-elara-brown: #24160E;
+}
