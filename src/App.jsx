@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 // import shop from "./pages/shop";
 // import about from "./pages/about";
 // import contact from "./pages/contact";
-import SiteLayout from "./components/layout/sitelayout";
+import Home from "./pages/home";
 
 // function App() {
 //   return ( 
@@ -19,7 +19,8 @@ import SiteLayout from "./components/layout/sitelayout";
 
 function App() {
   return (
-    <SiteLayout></SiteLayout>
+    <Home />
+   
   )
 }
 
