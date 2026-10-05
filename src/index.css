@@ -2,4 +2,12 @@
 
 @theme {
     --color-elara-brown: #24160E;
+     --font-elara-display: "Elara Display", serif;
+}
+
+@font-face {
+  font-family: "Elara Display";
+  src: url("./assets/fonts/Italianno-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }

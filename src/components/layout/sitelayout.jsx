@@ -3,7 +3,7 @@ import Footer from "./footer";
 
 function SiteLayout({ children }) {
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col overflow-hidden bg-white">
+    <div className="min-h-screen w-full overflow-hidden bg-white">
 
       <Header />
 

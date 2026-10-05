@@ -22,8 +22,8 @@ function Header() {
     ];
 
     return (
-        <header className= "relative bg-elara-header">
-            <div className="mx-auto flex min-h-[72px] max-w-[1280px] items-center justify-between px-6 lg:px-12">
+        <header className= "absolute left-0 right-0 top-0 z-20">
+            <div className="mx-auto flex min-h-[72px] max-w-[1280px] items-center justify-between px-6 lg:px-12 text-white/70">
 
                 {/* Logo */}
                 <NavLink to="/" className="text-sm tracking-[0.08em]">Elara Living</NavLink>
