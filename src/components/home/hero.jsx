@@ -11,16 +11,10 @@ function Hero () {
             <div className="absolute inset-0 bg-black/20" />
 
             {/* Brand text */}
-            <div className="absolute inset-0 flex items-center justify-start px-10 sm:px-[12%] md:px-[30%]">
-                <div className="text-center">
-                <h1 className="font-elara-display text-5xl leading-[0.9] text-[#B2A28E] md:text-7xl lg:text-8xl xl:text-9xl">
-                    Elara
+            <div className="absolute inset-0 flex items-center justify-start px-10 sm:px-[15%] md:px-[12%] xl:px-[15%]">
+                <h1 className="whitespace-nowrap font-elara-display text-6xl leading-none text-[#B2A28E] sm:text-7xl md:text-8xl lg:text-9xl xl:text-[10rem]">
+                    Elara Living
                 </h1>
-
-                <p className="font-elara-display mt-2 text-5xl tracking-[0.08em] text-[#B2A28E] md:text-7xl lg:text-8xl xl:text-9xl">
-                    Living
-                </p>
-                </div>
             </div>
 
         </section>
